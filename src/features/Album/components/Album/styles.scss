@@ -1,0 +1,14 @@
+.album{
+    &_thumbnail{
+        &>img{
+            border-radius: 10px;
+            width: 190px;
+            display: flex;
+        }
+    }
+    &_name{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:20px;
+        font-weight: bolder;
+    }
+}
